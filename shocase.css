@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url('galaray.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: #1d063088;   
+    }
+nav {
+    background-color: rgb(10, 1, 32);
+}
+h1{
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+color: orange;
+justify-content: center;
+text-align: center;
+margin-top: 1em;
+margin-bottom: 0.5em;
+
+}
+.logo{
+    text-align: center;
+    padding: 3em;
+}
+.icon {
+    height: 2.8em;
+    margin-left: 1.5em;
+}
+.nav-link {
+    color: orange;
+    font-family: "Creepster", system-ui;
+    font-size: 1.4em;
+}
+.nav-link:hover {
+    color: white;
+    font-family: "Creepster", system-ui;
+    font-size: 1.4em;
+    text-shadow: 0 0 10px #fff, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 50px #ff4da6, 0 0 40px orange;
+}
+.customPadding {
+    padding-top: 100px;
+}
+
+.customBorder {
+    border: 2px solid #f7941e;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.863);
+    color: #f7941e;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    display: none; 
+    opacity: 0.8;  
+}
+
+.img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.showcaseHeader {
+    color: #f7941e;
+}
+
+.showcaseIMG {
+    transition: transform 0.3s ease-in-out;  
+}
+
+.showcaseIMG:hover {
+    transform: scale(1.01);  
+}
+
+
+/*Schedule page */
+.event-details {
+    display: none; 
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    
+}
+.event-header {
+    cursor: pointer; 
+    padding: 10px;
+    background-color: black; 
+    color: white;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    font-size: 20px;
+    border: 1px solid #f7941e;
+}
+.event-header:hover {
+    background-color: #f7941e; 
+}
